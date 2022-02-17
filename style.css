@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 
 body{
@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-color: #FFFFFF;
     width: 1440px;
-    height: 100vh;
+
     border: 2px solid red;
 }
 
@@ -98,12 +98,81 @@ nav a{
     margin-bottom: -30px;
 }
 
+.block2{
+    margin: 87.5px;
+}
+
+.im, .learn{
+    font-family: 'Roboto Serif', sans-serif;
+    color: #B99BB6;
+    text-align: center;
+    font-weight: normal;
+}
+
+.based{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    color: #5F4D5D;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.im{
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.learn{
+    width: 141px;
+    height: 45px;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 16px 29px;
+    border: 1px solid #B99BB6;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-left: 46%;
+}
+.pictures{
+    display: flex;
+}
+
+.girl, .pillow2, .keyboard{
+    margin: 50px 37px 0 22px;
+}
 
 
 
+.purple4{
+    background-color: #CEB3CB;
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond', serif;
+    height: 427px;
+    width: 368px;
 
+}
 
+.p1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 23px;
+    margin-top: 23px;
+}
 
+.p2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    margin-left: 23px;
+    margin-top: -20px;
+
+}
 
 
 
