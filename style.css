@@ -10,6 +10,7 @@ body{
     border: 2px solid red;
 }
 
+/***************header*********************************/
 header{
     position: relative;
     background-color: #FFFFFF;
@@ -43,6 +44,8 @@ nav a{
     right: 140px;
 }
 
+
+/************************block***************/
 .block1{
     position: relative;
 }
@@ -98,11 +101,16 @@ nav a{
     margin-bottom: -30px;
 }
 
+
+/*******************block2****************************************/
 .block2{
+    border: 2px solid green;
+    width: 1265px;
+    height: 657.64px;
     margin: 87.5px;
 }
 
-.im, .learn{
+.im, .btn{
     font-family: 'Roboto Serif', sans-serif;
     color: #B99BB6;
     text-align: center;
@@ -116,35 +124,38 @@ nav a{
     font-weight: normal;
     font-size: 26px;
     line-height: 38px;
+    margin-top: -5px;
 }
 
 .im{
     font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
+    margin-top: -2px;
 }
-
-.learn{
+.btn{
+    margin-bottom: 27px;
+}
+.block2 button{
+    background-color: #FFFFFF;
     width: 141px;
     height: 45px;
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
-    padding: 16px 29px;
     border: 1px solid #B99BB6;
     box-sizing: border-box;
     border-radius: 25px;
-    margin-left: 46%;
+    margin-left: 45%;
 }
 .pictures{
     display: flex;
+    justify-content: center;
 }
 
 .girl, .pillow2, .keyboard{
-    margin: 50px 37px 0 22px;
+    margin: 20px
 }
-
-
 
 .purple4{
     background-color: #CEB3CB;
@@ -152,7 +163,6 @@ nav a{
     font-family: 'Cormorant Garamond', serif;
     height: 427px;
     width: 368px;
-
 }
 
 .p1{
@@ -173,6 +183,100 @@ nav a{
     margin-top: -20px;
 
 }
+
+
+/*****************block3***************************************/
+.block3{
+    border: 2px solid red;
+    width: 1265px;
+    height: 1500.97px;
+    margin-left: 87.5px;
+}
+
+.line{
+    text-align: center;
+    width: 1215px;
+    border-bottom: 1px solid  #D7B7D4;
+    margin: 39px 5px 39px 25px;
+}
+
+.beginnings, .carrer, .products{
+    display: flex;
+}
+
+.beginnings img{
+    width: 608px;
+    height: 416px;
+}
+
+.carrer img{
+    width: 544px;
+    height: 506px;
+    margin-left: 45px;
+}
+.products img{
+    width: 608px;
+    height: 417px;
+}
+
+.beginningstext{
+    margin-top: 88.36px;
+    margin-left: 84px;
+    margin-right: 80px;
+}
+
+.carrertext{
+    margin-top: 88.36px;
+    margin-left: 93px;
+}
+.productstext{
+    margin-top: 88.36px;
+    margin-left: 84px;
+    margin-right: 95px;
+}
+.btn2{
+    font-family: 'Roboto Serif', sans-serif;
+    color: #B99BB6;
+    text-align: center;
+    font-weight: normal;
+}
+.block3 button{
+    background-color: #FFFFFF;
+    width: 141px;
+    height: 45px;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+}
+
+.pp1{
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-top: -5px;
+}
+
+.pp2, .pp3{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+}
+
+.pp3{
+    margin-top: -10px;
+}
+
+
+
 
 
 
