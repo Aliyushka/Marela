@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 
 body{
     padding: 0;
     margin: 0;
     background-color: #FFFFFF;
     width: 1440px;
+    height: 100vh;
     border: 2px solid red;
 }
 
@@ -41,10 +43,60 @@ nav a{
     right: 140px;
 }
 
+.block1{
+    position: relative;
+}
 
+.purple1{
+    background-color: #C9ADC6;
+    height: 458px;
+}
 
+.purple2{
+    background-color: #D6BBD3;
+    height: 359px;
+}
 
+.pillow{
+    position: absolute;
+    margin: 72px 411px 70px 178px;
 
+}
+.purple3{
+    position: absolute;
+    background-color: #B08EAD;
+    width: 425px;
+    height: 450px;
+    right: 113px;
+    top: 182px;
+}
+.new, .purple3 a{
+    width: 35px;
+    height: 30px;
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.spring{
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 40px;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.new{
+    margin-top: 124px;
+    margin-bottom: -30px;
+}
 
 
 
