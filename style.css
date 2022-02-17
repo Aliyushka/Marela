@@ -104,7 +104,6 @@ nav a{
 
 /*******************block2****************************************/
 .block2{
-    border: 2px solid green;
     width: 1265px;
     height: 657.64px;
     margin: 87.5px;
@@ -277,10 +276,40 @@ nav a{
 
 
 /******************block4**************************/
+.block4{
+    border: 2px solid green;
+    width: 1215px;
+    height: 990.47px;
+    margin: 90.64px 113px 21.45px 112px;
+}
 
+.pillows{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pillows img{
+    margin-right: 26px;
+}
 
+.pp4{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #5F4D5D;
+    margin-top: 5px;
+}
 
-
-
-
-
+.cost{
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #B0B0B0;
+    margin-top: -12px;
+    margin-bottom: 55px;
+}
